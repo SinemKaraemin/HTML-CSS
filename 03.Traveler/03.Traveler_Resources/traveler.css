@@ -1,0 +1,215 @@
+@import url('o	https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('o	https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('images/poster.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+html{
+    font-size: 16px;
+    font-family: "Cormorant Infant", sans-serif;
+}
+
+img{
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Karla", sans;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.quoted{
+    font-family: "Karla", sans;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header nav ul{
+    display: flex;
+}
+
+.site-header nav li{
+    list-style: none outside;
+    padding: 0 0.5em;
+}
+
+.site-header nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.site-section{
+    padding: 2em;
+}
+
+.quote-container p:first-child{
+    padding-bottom: 2em;
+}
+
+.quote-container .quoted{
+    font-style: italic;
+}
+
+.quote-container{
+    text-align: left;
+    padding-left: 7em;
+    padding-right: 7em;
+}
+
+.site-section.banner h2{
+    font-size: 90px;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.site-section.banner p{
+    text-align: center;
+    padding-bottom: 2em;
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+.site-title a,
+.site-footer a{
+    width: 50px;
+    height: 30px;
+    overflow: hidden;
+    text-indent: -200vw;
+    display: block;
+    background-image: url('images/logo.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.site-section.banner .container{
+    color: #fff;
+}
+
+.site-section.support{
+    color: #fff;
+    background: #D2122E;
+    padding: 2em;
+    text-align: center;
+}
+
+.site-section.support h5{
+    padding-bottom: 1em;
+}
+
+.site-section.support p{
+    padding-left: 9em;
+    padding-right: 9em;
+}
+
+.site-section.guide{
+    color: #fff;
+    background: #D2122E;
+    text-align: center;
+    padding: 3.5em;
+}
+
+.site-section.guide h2{
+    padding-bottom: 2em;
+}
+
+.site-section.guide .button{
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    background: rgb(234, 159, 84);
+    padding: 0.6em;
+}
+
+.site-section.guide p{
+    padding-bottom: 1.8em;
+}
+
+.site-section.main,
+.site-section.quote{
+    background: #F5F5DC;
+}
+
+.site-section.main{
+    text-align: center;
+    padding: 3em;
+}
+
+.site-section.main h2{
+    padding-bottom: 2em;
+}
+
+.site-section.main p{
+    padding-left: 9em;
+    padding-right: 9em;
+    text-align: left;
+    padding-bottom: 2em;
+}
+
+.site-section.main .button{
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-section.main .button.read-more{
+    /* align-items: center; */
+    /* margin-right: auto;  */
+}
+
+.site-section.main .button.read-all{
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.site-footer{
+    background: #22160B;
+    color: #fff;
+    text-align: left;
+    padding-right: 7em;
+    padding-left: 2em;
+}
+
+.site-footer p{
+    padding-left: 2em;
+    padding-top: 0.5em;
+}
+
+.site-footer .rights{
+    padding-top: 0.5em;
+    color: #C4A484;
+}
